@@ -1,0 +1,279 @@
+@media only screen and (max-width: 1024px) {
+    .body.light::after {
+        background: url('../media/backGroundLightBigTaplate.png');
+        background-size: cover;
+    }
+
+    .body.dark::after {
+        background: url('../media/backGroundDarkBigTaplate.png');
+        background-size: cover;
+    }
+
+    /* ======================================= */
+    /* Navbar */
+    .navContainer.light {
+        border: none;
+    }
+
+    .navContainer.dark {
+        border: none;
+    }
+
+    /* Logo Detailes */
+    .logoImg {
+        display: none;
+    }
+
+    .logoTitle {
+        margin: 10px auto 0;
+    }
+
+    .logoTitle a {
+        font-size: 1em;
+    }
+
+    /* Website Sections */
+    .ulContainer ul li {
+        padding-right: 5px;
+    }
+
+    .ulContainer ul li.clicked a {
+        padding: 0;
+    }
+
+    .ulContainer ul li a .icon {
+        min-width: 35px;
+        font-size: 1em;
+    }
+
+    .ulContainer ul li.clicked a .icon {
+        font-size: 1.25em;
+    }
+
+    .ulContainer ul li a .title {
+        font-size: 1.25em;
+        padding: 0;
+    }
+
+    /* Dark Mood Controls */
+    .darkModeContainer {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    .darkMode {
+        margin-bottom: 25px;
+    }
+
+    .darkModeContainer #light,
+    .darkModeContainer #dark {
+        height: 43px;
+        padding: 0;
+    }
+
+    /* Time */
+    .dateTime {
+        flex-direction: column-reverse;
+    }
+
+    /* ======================================= */
+    /* Main Content */
+
+    /* Top Bar */
+
+    /* ======================================= */
+    /* Website Content */
+    /* Home */
+
+    /* Home Info Section */
+    .homeContent .homeInfo {
+        width: 100%;
+        height: 100%;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        transform: none;
+    }
+
+    /* Logo */
+    .homeInfo .homeLogoImg {
+        height: 15%;
+    }
+
+    /* Title */
+    .homeInfoTitle h6 {
+        font-size: 2.5em;
+    }
+
+    .homeInfoTitle p {
+        font-size: 1.5em;
+    }
+
+    /* Action Call Btns */
+    .homeInfo .homeBtns {
+        height: 15%;
+    }
+
+    .mainContainer.light .homeBtns div {
+        background: var(--navSkyBlue);
+        border: 1px solid var(--navSkyBlue);
+    }
+
+    .mainContainer.dark .homeBtns div {
+        background: -o-linear-gradient(315deg, rgba(53, 53, 53, 1) 60%, rgba(22, 22, 22, 1) 150%);
+        background: linear-gradient(135deg, rgba(53, 53, 53, 1) 60%, rgba(22, 22, 22, 1) 150%);
+        border: 2px solid #333;
+    }
+
+    /* Home Contact Section */
+    .homeContact {
+        width: 30%;
+    }
+
+    .homeSocialCards div {
+        border: 1px solid var(--grayWhite);
+    }
+
+    .mainContainer.light .homeSocialCards a {
+        color: var(--grayWhite);
+    }
+
+    /* Home Background Section  */
+    .homeBackDesign .svgContainer {
+        width: 80%;
+        height: 45%;
+    }
+
+    /* ============================================== */
+    /* Sections page */
+    .sectionsContent {
+        width: 100%;
+    }
+
+    .infoContent h3 {
+        font-size: 1em;
+    }
+
+    .infoContent p {
+        font-size: 0.75em;
+    }
+
+    .websiteControls {
+        width: 50%;
+    }
+
+    .sectionsContainer {
+        grid-template-columns: repeat(3, calc(100%/3));
+    }
+
+    .section .shap {
+        font-size: 3.25em;
+    }
+
+    .description .sectionTitle {
+        font-size: 0.75em;
+    }
+
+    .description .sectionDescription {
+        line-height: 30px;
+        font-size: 0.75em;
+    }
+
+    .actionCallBtn a {
+        font-size: 0.75em;
+    }
+
+    /* ============================== */
+    .sectionControls p {
+        width: 350px;
+    }
+
+    /* ============================================================================= */
+    /* Last News Page */
+    .lastNewsInfo {
+        width: 100%;
+    }
+
+    .lastNewsContainer {
+        width: 100%;
+    }
+
+    .lastNewsSection {
+        width: 100%;
+    }
+
+    .lastNewsControls {
+        width: 42.5%;
+    }
+
+    table thead {
+        font-size: 1em;
+    }
+
+    /* ============================================================================= */
+    /* Quizzes Page */
+    .quizzesMSG {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .subjectsContainer {
+        width: 95%;
+    }
+
+    /* ============================================================================= */
+    /* Contact Page */
+    .contactPageInfo {
+        width: 100%;
+    }
+
+    .contactPage .contactContainer {
+        width: 95%;
+    }
+
+    .contactContainer .contactMsg {
+        width: 77.5%;
+        left: 0;
+    }
+
+    .msgContent h3 {
+        width: 100%;
+        left: 67%;
+    }
+
+    .contactContainer .contactCard {
+        width: 37.5%;
+        right: 0;
+    }
+
+    .websiteInfo a img {
+        width: 100%;
+    }
+
+    h6 {
+        font-size: 1.1em;
+    }
+
+    /* Login Stylling */
+    .userLoginContent {
+        width: 100%;
+    }
+
+    .userLoginContent::before {
+        width: 75%;
+    }
+
+    .userLoginContent form {
+        width: 90%;
+    }
+
+    .userLoginContent form .formBtns {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .userLoginContent form .btn {
+        width: 75%;
+    }
+}

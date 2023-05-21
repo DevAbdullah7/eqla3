@@ -1,0 +1,346 @@
+@media only screen and (max-width: 768px) {
+    .body.light::after {
+        background: url('../media/backGroundTaplate.png');
+        background-size: cover;
+    }
+
+    .body.dark::after {
+        background: url('../media/backGroundDarkTaplate.png');
+        background-size: cover;
+    }
+
+    /* ======================================= */
+
+    /* Navbar */
+    .navContainer {
+        width: 10%;
+    }
+
+    .navContainer.light {
+        border: none;
+    }
+
+    .navContainer.dark {
+        border: none;
+    }
+
+    /* Logo Detailes */
+    .logoInfo {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .logoImg {
+        display: block;
+    }
+
+    .logoTitle {
+        display: none;
+    }
+
+    .logoTitle p {
+        font-size: 0.75em;
+    }
+
+    /* Website Sections */
+    .ulContainer ul li {
+        padding-right: 5px;
+    }
+
+    .ulContainer ul li a {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .ulContainer ul li.clicked a {
+        padding: 0;
+    }
+
+    .ulContainer ul li a .icon {
+        min-width: 35px;
+        font-size: 1.5em;
+    }
+
+    .ulContainer ul li.clicked a .icon {
+        font-size: 1.75em;
+    }
+
+    .ulContainer ul li a .title {
+        display: none;
+    }
+
+    /* Dark Mood Controls */
+    .darkModeContainer {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .darkMode {
+        margin-bottom: 25px;
+    }
+
+    .darkModeContainer #light,
+    .darkModeContainer #dark {
+        width: 45px;
+        height: 45px;
+        border-radius: 25%;
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .darkMode {
+        flex-direction: column;
+    }
+
+    .dateTime {
+        font-size: 14px;
+        flex-direction: column-reverse;
+    }
+
+    .dateTime .date {
+        display: none;
+    }
+
+
+    /* ======================================= */
+
+    /* Main Content */
+    .mainContainer {
+        width: 90%;
+    }
+
+    /* Top Bar */
+    .topBar {
+        width: 90%;
+    }
+
+    .mainContainer .topBar .logo img {
+        display: none;
+    }
+
+    .topBar .search {
+        transform: none;
+    }
+
+    .topBar .search input {
+        width: 25em;
+    }
+
+    /* ======================================= */
+    /* Website Content */
+    /* Home */
+
+    /* Home Info Section */
+    .homeContent .homeInfo {
+        width: 100%;
+        height: 80%;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    /* Logo */
+    .homeInfo .homeLogoImg {
+        height: 15%;
+    }
+
+    /* Title */
+    .homeInfoTitle h6 {
+        font-size: 2em;
+    }
+
+    .homeInfoTitle p {
+        font-size: 1.25em;
+    }
+
+    /* Action Call Btns */
+    .homeInfo .homeBtns {
+        height: 15%;
+    }
+
+    /* Home Contact Section */
+    .homeContact {
+        width: 37%;
+    }
+
+    .homeSocialCards div {
+        border: 1px solid var(--grayWhite);
+    }
+
+    .mainContainer.light .homeSocialCards a {
+        color: var(--grayWhite);
+    }
+
+    /* Home Background Section  */
+    .homeBackDesign .svgContainer {
+        width: 80%;
+        height: 45%;
+    }
+
+    /* ============================================== */
+    /* Sections page */
+    .sectionsContent {
+        width: 100%;
+    }
+
+    .sectionsInfo {
+        transform: none;
+    }
+
+    .infoContent h3 {
+        font-size: 1em;
+    }
+
+    .infoContent p {
+        font-size: 0.75em;
+    }
+
+    .websiteControls {
+        width: 50%;
+    }
+
+    .sectionsContainer {
+        grid-template-columns: repeat(2, calc(100%/2));
+        gap: 2.5%;
+    }
+
+    .section:hover {
+        transform: scale(1.05);
+    }
+
+    .section .shap {
+        font-size: 2.5em;
+    }
+
+    .description .sectionTitle {
+        font-size: 0.75em;
+    }
+
+    .description .sectionDescription {
+        line-height: 25px;
+        font-size: 0.65em;
+    }
+
+    .actionCallBtn a {
+        font-size: 0.75em;
+    }
+
+    /* ============================== */
+    .sectionControls a {
+        width: 40px;
+        height: 40px;
+        border-radius: 25%;
+        font-size: 18px;
+    }
+
+    .sectionControls p {
+        width: 250px;
+    }
+
+    .subjectsContent .subjects::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
+    }
+
+    .subjectsContent .subjects::-webkit-scrollbar::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+
+    /* ============================================================================= */
+    /* Last News Page */
+    .lastNewsInfo {
+        width: 100%;
+    }
+
+    .lastNewsContainer {
+        width: 100%;
+    }
+
+    .lastNewsSection {
+        width: 100%;
+    }
+
+    .lastNewsControls {
+        width: 42.5%;
+    }
+
+    table thead {
+        font-size: 1em;
+    }
+
+    table .subWriter,
+    table .subDate {
+        width: 20%;
+    }
+
+    .contactPageInfo {
+        width: 100%;
+    }
+
+    .contactPage .contactContainer {
+        width: 95%;
+    }
+
+    .contactContainer .contactMsg {
+        width: 77.5%;
+        left: 0;
+    }
+
+    .msgContent h3 {
+        width: 100%;
+        left: 67%;
+    }
+
+    .contactContainer .contactCard {
+        width: 37.5%;
+        right: 0;
+    }
+
+    .websiteInfo a img {
+        width: 100%;
+    }
+
+    h6 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    h6 .highLine {
+        display: none;
+    }
+
+    h6 .Eng {
+        margin-right: 5px;
+        letter-spacing: 2.5px;
+    }
+
+    
+    /* Login Stylling */
+    .userLoginContent {
+        width: 100%;
+    }
+
+    .userLoginContent::before {
+        width: 75%;
+    }
+
+    .userLoginContent form {
+        width: 90%;
+    }
+
+    .userLoginContent form .formBtns {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .userLoginContent form .btn {
+        width: 75%;
+    }
+}

@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1617px) {
+    .body.light::after {
+        background: url('../media/backGroundLightBigTaplate.png');
+        background-size: cover;
+    }
+
+    .body.dark::after {
+        background: url('../media/backGroundDarkBigTaplate.png');
+        background-size: cover;
+    }
+
+    /* ======================================= */
+    /* Navbar */
+    /* Logo Detailes */
+    .logoInfo {
+        margin-top: 15px;
+    }
+
+    .logoImg {
+        display: none;
+    }
+
+    .logoTitle {
+        display: block;
+    }
+
+    /* Website Sections */
+    .ulContainer ul li a .icon {
+        min-width: 35px;
+        font-size: 1.5em;
+    }
+
+    .ulContainer ul li.clicked a .icon {
+        font-size: 1.75em;
+    }
+
+    /* Dark Mood Controls */
+    /* Time */
+    .dateTime {
+        font-size: 1em;
+    }
+
+    /* ======================================= */
+    /* Main Content */
+
+    /* ======================================= */
+    /* Website Content */
+    /* Home */
+
+    /* Home Info Section */
+
+    /* Logo */
+
+    /* Title */
+    .homeInfoTitle h6 {
+        font-size: 2em;
+    }
+
+    .homeInfoTitle p {
+        font-size: 1em;
+    }
+
+    /* Action Call Btns */
+    .homeBtns a {
+        width: 35%;
+        height: 40px;
+    }
+
+    /* Home Background Section  */
+    .homeBackDesign .svgContainer {
+        width: 80%;
+        height: 65%;
+    }
+
+    /* ============================================== */
+    /* Sections page */
+    .infoContent h3 {
+        font-size: 1em;
+    }
+
+    .infoContent p {
+        font-size: 0.75em;
+    }
+
+    .websiteControls {
+        width: 50%;
+    }
+
+    .sectionsContainer {
+        grid-template-columns: repeat(3, calc(100%/3));
+    }
+
+    .section .shap {
+        font-size: 3.25em;
+    }
+
+    .description .sectionTitle {
+        font-size: 0.75em;
+    }
+
+    .description .sectionDescription {
+        line-height: 30px;
+        font-size: 0.75em;
+    }
+
+    /* ============================================================================= */
+    /* Last News Page */
+
+    .lastNewsSection {
+        width: 100%;
+    }
+
+    .lastNewsControls {
+        width: 42.5%;
+    }
+
+    table thead {
+        font-size: 1em;
+    }
+
+    tbody .subTitle,
+    table .subWriter,
+    table .subDate {
+        font-size: 0.75em;
+    }
+
+    .subjects tbody .subTitle,
+    .subjects table .subWriter,
+    .subjects table .subDate {
+        font-size: 1em;
+    }
+
+    .subjects tbody .subTitle {
+        font-size: 1.25em;
+    }
+
+    .contactContainer .contactMsg {
+        width: 77.5%;
+        left: 0;
+    }
+
+    .msgContent h3 {
+        width: 100%;
+        left: 75%;
+    }
+
+    .contactContainer .contactCard {
+        width: 37.5%;
+        right: 0;
+    }
+
+    h6 {
+        font-size: 1.25em;
+    }
+}
